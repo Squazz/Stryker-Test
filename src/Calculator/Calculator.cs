@@ -30,5 +30,10 @@ namespace Calculator
             int remainder = first % second;
             return (result, remainder);
         }
+
+        public bool NotUnderTest(int first, int second)
+        {
+            return first > second;
+        }
     }
 }
